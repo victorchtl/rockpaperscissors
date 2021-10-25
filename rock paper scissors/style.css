@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rampart One', cursive;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.title-rock {
+    color: #f15481;
+}
+
+.title-paper {
+    color: #ffde53;
+}
+
+.title-scissors {
+    color: #7fcfda;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.victor-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.player-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.victor-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.player-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.victor-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px !important;
+}
+
+.player-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px !important;
+}
+
+.result-text {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.choices {
+    display: flex;
+}
+
+.choice {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 10px;
+}
+
+#choice-rock {
+    background-image: url(images/rock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#choice-paper {
+    background-image: url(images/paper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#choice-scissors {
+    background-image: url(images/scissors.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
